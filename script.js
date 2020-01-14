@@ -173,17 +173,57 @@
 // a();
 
 // #4
-function satu() {
-    var nama = 'Syahdan';
-    console.log(nama);
+// function satu() {
+//     var nama = 'Syahdan';
+//     console.log(nama);
+// }
+
+// function dua() {
+//     console.log(nama);
+// }
+
+// console.log(nama);
+// var nama = 'Dimas';
+// satu();
+// dua('Dini');
+// console.log(nama);
+
+// CLOSURE
+// Lexical Scope
+
+function init() {
+    let nama = "Syahdan Masyhuri";
+
+    function tampilNama() {
+        console.log(nama);
+    }
+
+    tampilNama();
 }
 
-function dua() {
-    console.log(nama);
-}
+init();
 
-console.log(nama);
-var nama = 'Dimas';
-satu();
-dua('Dini');
-console.log(nama);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
